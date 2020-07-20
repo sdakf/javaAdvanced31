@@ -16,6 +16,6 @@ public class Car extends Object { //nadklasa -> matka wszystkich klas (Object)
 
     @Override //przedefiniowanie metody
     public String toString() {
-        return "Samochód " + model;
+        return "Samochód: " + model;
     }
 }
